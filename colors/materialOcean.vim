@@ -116,6 +116,7 @@ hi @property guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi @property guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @variable.member guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @keyword.conditional guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi @keyword.import guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
 hi @variable.builtin guifg=#05c46b ctermfg=41 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
 hi @constant.builtin guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
 hi @tag.delimiter guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=italic cterm=italic
