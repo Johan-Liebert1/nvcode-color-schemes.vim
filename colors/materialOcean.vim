@@ -122,6 +122,7 @@ hi @constant.builtin guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=bold,i
 hi @tag.delimiter guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi @keyword.operator guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @keyword.return guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi @keyword.repeat guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi @tag guifg=#f07178 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @tag.attribute guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @type.qualifier guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
