@@ -133,12 +133,12 @@ hi @keyword.import guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=bold,it
 hi @variable.builtin guifg=#05c46b ctermfg=41 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
 hi @constant.builtin guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
 hi @tag.delimiter guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi @tag.builtin guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @keyword.operator guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @keyword.return guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi @keyword.repeat guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi @tag guifg=#f07178 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @tag.attribute guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi @tag.builtin guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @type.qualifier guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @lsp.type.function guifg=#6695fa ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
