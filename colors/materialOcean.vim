@@ -123,6 +123,7 @@ hi htmlTagName guifg=#f07178 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi htmlTitle guifg=#a6accd ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
+hi @type guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @constructor guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @property guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @property guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -137,7 +138,6 @@ hi @keyword.return guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=italic c
 hi @keyword.repeat guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi @tag guifg=#f07178 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @tag.attribute guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi @type guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @type.qualifier guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @lsp.type.function guifg=#6695fa ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
