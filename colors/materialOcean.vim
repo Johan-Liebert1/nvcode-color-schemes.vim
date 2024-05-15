@@ -112,6 +112,7 @@ hi Parameter guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi Function guifg=#6695fa ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
+hi @type guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @type.qualifier guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @lsp.type.function guifg=#6695fa ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @constructor guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
