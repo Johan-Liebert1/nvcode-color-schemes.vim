@@ -230,6 +230,7 @@ hi GitSignsAdd                  guifg=#23d18b ctermfg=42   guibg=NONE    ctermbg
 hi GitSignsChange               guifg=#0c7d9d ctermfg=31   guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
 hi GitSignsDelete               guifg=#94151b ctermfg=88   guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
 
+hi LspDiagnosticsDefaultError           guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsUnderlineError         guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsUnderlineWarning       guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsUnderlineHint          guifg=#729cb3 ctermfg=73  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
