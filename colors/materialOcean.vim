@@ -143,6 +143,7 @@ hi @type.qualifier guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=NONE ct
 hi @lsp.type.function guifg=#6695fa ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @type.builtin guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @variable guifg=#a6accd ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @module guifg=#05c46b ctermfg=41 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 
 hi Conditional guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Repeat guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=italic
