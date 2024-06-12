@@ -230,18 +230,35 @@ hi GitSignsAdd                  guifg=#23d18b ctermfg=42   guibg=NONE    ctermbg
 hi GitSignsChange               guifg=#0c7d9d ctermfg=31   guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
 hi GitSignsDelete               guifg=#94151b ctermfg=88   guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
 
-hi LspDiagnosticsDefaultError           guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsUnderlineError         guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsUnderlineWarning       guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsUnderlineHint          guifg=#729cb3 ctermfg=73  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsSignError              guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsSignWarning            guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsSignInformation        guifg=#ffcc66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsSignHint               guifg=#4fc1ff ctermfg=75  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsVirtualTextError       guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsVirtualTextWarning     guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsVirtualTextInformation guifg=#4fc1ff ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsVirtualTextHint        guifg=#4fc1ff ctermfg=75  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticVirtualTextError guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticFloatingError    guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticSignError        guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticVirtualTextError guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticVirtualTextWarn  guifg=#ff8800 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticFloatingWarn     guifg=#ff8800 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticSignWarn         guifg=#ff8800 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticVirtualTextWarn  guifg=#ff8800 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticVirtualTextInfo  guifg=#4fc1ff ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticFloatingInfo     guifg=#4fc1ff ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticSignInfo         guifg=#4fc1ff ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticVirtualTextInfo  guifg=#4fc1ff ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticVirtualTextHint  guifg=#729cb3 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticFloatingHint     guifg=#729cb3 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticSignHint         guifg=#729cb3 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticVirtualTextHint  guifg=#729cb3 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" hi LspDiagnosticsDefaultError           guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" hi LspDiagnosticsUnderlineError         guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" hi LspDiagnosticsUnderlineWarning       guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" hi LspDiagnosticsUnderlineHint          guifg=#729cb3 ctermfg=73  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" hi LspDiagnosticsSignError              guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" hi LspDiagnosticsSignWarning            guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" hi LspDiagnosticsSignInformation        guifg=#ffcc66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" hi LspDiagnosticsSignHint               guifg=#4fc1ff ctermfg=75  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" hi LspDiagnosticsVirtualTextError       guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" hi LspDiagnosticsVirtualTextWarning     guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" hi LspDiagnosticsVirtualTextInformation guifg=#4fc1ff ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+" hi LspDiagnosticsVirtualTextHint        guifg=#4fc1ff ctermfg=75  guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 hi QuickScopePrimary          guifg=#00c7df ctermfg=44   guibg=NONE    ctermbg=NONE gui=underline cterm=underline
 hi QuickScopeSecondary        guifg=#ef5f70 ctermfg=203  guibg=NONE    ctermbg=NONE gui=underline cterm=underline
