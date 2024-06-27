@@ -229,8 +229,14 @@ hi diffOldFile                  guifg=#d16969 ctermfg=167  guibg=NONE    ctermbg
 hi debugPc                      guifg=NONE    ctermfg=NONE guibg=#89ddff ctermbg=117  gui=NONE         cterm=NONE
 hi debugBreakpoint              guifg=#d16969 ctermfg=167  guibg=NONE    ctermbg=NONE gui=reverse      cterm=reverse
 hi GitSignsAdd                  guifg=#23d18b ctermfg=42   guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
+hi GitSignsAddNr                guifg=#23d18b ctermfg=42   guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
+hi GitSignsAddLn                guifg=#23d18b ctermfg=42   guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
 hi GitSignsChange               guifg=#0c7d9d ctermfg=31   guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
+hi GitSignsChangeNr             guifg=#0c7d9d ctermfg=31   guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
+hi GitSignsChangeLn             guifg=#0c7d9d ctermfg=31   guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
 hi GitSignsDelete               guifg=#94151b ctermfg=88   guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
+hi GitSignsDeleteNr             guifg=#94151b ctermfg=88   guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
+hi GitSignsDeleteLn             guifg=#94151b ctermfg=88   guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
 
 hi DiagnosticVirtualTextError guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticFloatingError    guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
