@@ -1,5 +1,21 @@
 " Maintainer: Pragyan pragyanpoudyal41999@gmail.com
 
+" 'signs.add.hl' is now deprecated, please define highlight 'GitSignsAdd'
+" 'signs.add.linehl' is now deprecated, please define highlight 'GitSignsAddLn'
+" 'signs.add.numhl' is now deprecated, please define highlight 'GitSignsAddNr'
+" 'signs.change.hl' is now deprecated, please define highlight 'GitSignsChange'
+" 'signs.change.linehl' is now deprecated, please define highlight 'GitSignsChangeLn'
+" 'signs.change.numhl' is now deprecated, please define highlight 'GitSignsChangeNr'
+" 'signs.changedelete.hl' is now deprecated, please define highlight 'GitSignsChangedelete'
+" 'signs.changedelete.linehl' is now deprecated, please define highlight 'GitSignsChangedeleteLn'
+" 'signs.changedelete.numhl' is now deprecated, please define highlight 'GitSignsChangedeleteNr'
+" 'signs.delete.hl' is now deprecated, please define highlight 'GitSignsDelete'
+" 'signs.delete.linehl' is now deprecated, please define highlight 'GitSignsDeleteLn'
+" 'signs.delete.numhl' is now deprecated, please define highlight 'GitSignsDeleteNr'
+" 'signs.topdelete.hl' is now deprecated, please define highlight 'GitSignsTopdelete'
+" 'signs.topdelete.linehl' is now deprecated, please define highlight 'GitSignsTopdeleteLn'
+" 'signs.topdelete.numhl' is now deprecated, please define highlight 'GitSignsTopdeleteNr'
+
 set background=dark
 hi clear
 if exists('syntax_on')
@@ -147,6 +163,14 @@ hi @variable            guifg=#a6accd ctermfg=146 guibg=NONE ctermbg=NONE gui=NO
 hi @module              guifg=#dcdcaa ctermfg=41  guibg=NONE ctermbg=NONE gui=italic      cterm=italic
 hi @function.macro      guifg=#dcdcaa ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE         
 hi @attribute.builtin   guifg=#05c46b ctermfg=41  guibg=NONE ctermbg=NONE gui=italic      cterm=italic
+
+" Buncha colors for markdown
+hi @markup.heading.1 guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
+hi @markup.heading.2 guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
+hi @markup.heading.3 guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
+hi @markup.heading.4 guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
+hi @markup.heading.5 guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
+hi @markup.heading.6 guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
 
 hi Conditional                  guifg=#89ddff ctermfg=117  guibg=NONE    ctermbg=NONE gui=italic       cterm=italic
 hi Repeat                       guifg=#89ddff ctermfg=117  guibg=NONE    ctermbg=NONE gui=italic       cterm=italic
