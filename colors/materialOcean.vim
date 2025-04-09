@@ -165,11 +165,11 @@ hi @function.macro      guifg=#dcdcaa ctermfg=187 guibg=NONE ctermbg=NONE gui=NO
 hi @attribute.builtin   guifg=#05c46b ctermfg=41  guibg=NONE ctermbg=NONE gui=italic      cterm=italic
 
 " Buncha colors for markdown
-hi @markup.heading.1 guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
-hi @markup.heading.2 guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
-hi @markup.heading.3 guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
-hi @markup.heading.4 guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
-hi @markup.heading.5 guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
+hi @markup.heading.1 guifg=#fca608 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
+hi @markup.heading.2 guifg=#fc7005 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
+hi @markup.heading.3 guifg=#fce305 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
+hi @markup.heading.4 guifg=#fc4f05 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
+hi @markup.heading.5 guifg=#d7fc05 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
 hi @markup.heading.6 guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
 
 hi Conditional                  guifg=#89ddff ctermfg=117  guibg=NONE    ctermbg=NONE gui=italic       cterm=italic
