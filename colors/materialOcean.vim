@@ -60,7 +60,7 @@ hi Structure          guifg=#ffcb6b ctermfg=221   guibg=NONE    ctermbg=NONE    
 hi Typedef            guifg=#ffcb6b ctermfg=221   guibg=NONE    ctermbg=NONE    gui=NONE         cterm=NONE         
 hi Special            guifg=#6695fa ctermfg=69    guibg=NONE    ctermbg=NONE    gui=italic       cterm=italic       
 hi SpecialComment     guifg=#5c6370 ctermfg=241   guibg=NONE    ctermbg=NONE    gui=NONE         cterm=NONE         
-hi Error              guifg=#f44747 ctermfg=203   guibg=NONE    ctermbg=NONE    gui=bold,reverse cterm=bold,reverse 
+hi Error              guifg=#ff4747 ctermfg=203   guibg=NONE    ctermbg=NONE    gui=bold,reverse cterm=bold,reverse
 hi Todo               guifg=#c586c0 ctermfg=175   guibg=NONE    ctermbg=NONE    gui=bold,italic  cterm=bold,italic  
 hi Underlined         guifg=#89ddff ctermfg=117   gui=underline cterm=underline                                     
 hi Cursor             guifg=#515052 ctermfg=239   guibg=#aeafad ctermbg=145     gui=NONE         cterm=NONE         
@@ -171,6 +171,9 @@ hi @markup.heading.3 guifg=#fce305 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE 
 hi @markup.heading.4 guifg=#fc4f05 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
 hi @markup.heading.5 guifg=#d7fc05 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
 hi @markup.heading.6 guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
+
+hi @markup.link.label guifg=#f07178 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE       cterm=NONE
+hi @markup.link.url   guifg=#6695fa ctermfg=69  guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
 
 hi Conditional                  guifg=#89ddff ctermfg=117  guibg=NONE    ctermbg=NONE gui=italic       cterm=italic
 hi Repeat                       guifg=#89ddff ctermfg=117  guibg=NONE    ctermbg=NONE gui=italic       cterm=italic
