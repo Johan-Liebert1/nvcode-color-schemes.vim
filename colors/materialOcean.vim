@@ -130,7 +130,7 @@ hi htmlArg            guifg=#c586c0 ctermfg=175   guibg=NONE    ctermbg=NONE    
 hi htmlBold           guifg=#d7ba7d ctermfg=180   guibg=NONE    ctermbg=NONE    gui=bold         cterm=bold         
 hi htmlEndTag         guifg=#89ddff ctermfg=117   guibg=NONE    ctermbg=NONE    gui=NONE         cterm=NONE         
 hi htmlItalic         guifg=#c586c0 ctermfg=175   guibg=NONE    ctermbg=NONE    gui=italic       cterm=italic       
-hi htmlLink           guifg=#89ddff ctermfg=117   guibg=NONE    ctermbg=NONE    gui=underline    cterm=underline    
+hi htmlLink           guifg=#89ddff ctermfg=117   guibg=NONE    ctermbg=NONE    gui=NONE         cterm=NONE    
 hi htmlSpecialChar    guifg=#d7ba7d ctermfg=180   guibg=NONE    ctermbg=NONE    gui=NONE         cterm=NONE         
 hi htmlSpecialTagName guifg=#f07178 ctermfg=204   guibg=NONE    ctermbg=NONE    gui=NONE         cterm=NONE         
 hi htmlTag            guifg=#f07178 ctermfg=204   guibg=NONE    ctermbg=NONE    gui=NONE         cterm=NONE         
