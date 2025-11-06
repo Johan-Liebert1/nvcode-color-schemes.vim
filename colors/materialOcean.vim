@@ -216,7 +216,7 @@ hi markdownLinkText             guifg=#6695fa ctermfg=69   guibg=NONE    ctermbg
 hi markdownListMarker           guifg=#d16969 ctermfg=167  guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
 hi markdownOrderedListMarker    guifg=#d16969 ctermfg=167  guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
 hi markdownRule                 guifg=#5c6370 ctermfg=241  guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
-hi markdownUrl                  guifg=#89ddff ctermfg=117  guibg=NONE    ctermbg=NONE gui=underline    cterm=underline
+hi markdownUrl                  guifg=#89ddff ctermfg=117  guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
 hi CocExplorerIndentLine        guifg=#5c6370 ctermfg=241  guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
 hi CocExplorerBufferRoot        guifg=#89ddff ctermfg=117  guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
 hi CocExplorerFileRoot          guifg=#89ddff ctermfg=117  guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
