@@ -107,7 +107,7 @@ hi VisualNOS          guifg=#3e4452 ctermfg=238   guibg=NONE    ctermbg=NONE    
 hi WarningMsg         guifg=#dcdcaa ctermfg=187   guibg=NONE    ctermbg=NONE    gui=NONE         cterm=NONE         
 hi WildMenu           guifg=#1e1e1e ctermfg=234   guibg=#6695fa ctermbg=69      gui=NONE         cterm=NONE         
 hi EndOfBuffer        guifg=#1e1e1e ctermfg=234   guibg=NONE    ctermbg=NONE    gui=NONE         cterm=NONE         
-hi Comment            guifg=#27ae60 ctermfg=35    guibg=NONE    ctermbg=NONE    gui=NONE         cterm=NONE         
+hi Comment            guifg=#27ae60 ctermfg=35    guibg=NONE    ctermbg=NONE    gui=italic       cterm=italic
 hi TSError            guifg=#f44747 ctermfg=203   guibg=NONE    ctermbg=NONE    gui=NONE         cterm=NONE         
 hi Delimiter          guifg=#abb2bf ctermfg=249   guibg=NONE    ctermbg=NONE    gui=bold         cterm=bold         
 hi Special            guifg=#89ddff ctermfg=117   guibg=NONE    ctermbg=NONE    gui=NONE         cterm=NONE         
