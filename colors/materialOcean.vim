@@ -177,6 +177,10 @@ hi @markup.link.url   guifg=#6695fa ctermfg=69  guibg=NONE ctermbg=NONE gui=NONE
 hi @markup.raw        gui=NONE       cterm=NONE
 hi @_label            gui=NONE       cterm=NONE
 
+" Remove underline from markdown links
+hi @markup.link.label gui=NONE cterm=NONE
+hi @markup.link.label.markdown_inline gui=NONE cterm=NONE
+
 hi Conditional                  guifg=#89ddff ctermfg=117  guibg=NONE    ctermbg=NONE gui=italic       cterm=italic
 hi Repeat                       guifg=#89ddff ctermfg=117  guibg=NONE    ctermbg=NONE gui=italic       cterm=italic
 hi Label                        guifg=#9cdcfe ctermfg=153  guibg=NONE    ctermbg=NONE gui=NONE         cterm=NONE
