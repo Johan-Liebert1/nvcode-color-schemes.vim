@@ -172,14 +172,14 @@ hi @markup.heading.4 guifg=#fc4f05 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE 
 hi @markup.heading.5 guifg=#d7fc05 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
 hi @markup.heading.6 guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE        cterm=NONE
 
-hi @markup.link.label guifg=#f07178 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE       cterm=NONE
-hi @markup.link.url   guifg=#6695fa ctermfg=69  guibg=NONE ctermbg=NONE gui=NONE       cterm=NONE
+hi @markup.link.label guifg=#f07178 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE       cterm=nocombine
+hi @markup.link.url   guifg=#6695fa ctermfg=69  guibg=NONE ctermbg=NONE gui=NONE       cterm=nocombine
 hi @markup.raw        gui=NONE       cterm=NONE
 hi @_label            gui=NONE       cterm=NONE
 
 " Remove underline from markdown links
-hi @markup.link.label gui=NONE cterm=NONE
-hi @markup.link.label.markdown_inline gui=NONE cterm=NONE
+"hi @markup.link.label gui=NONE cterm=NONE
+"hi @markup.link.label.markdown_inline gui=NONE cterm=NONE
 
 hi Conditional                  guifg=#89ddff ctermfg=117  guibg=NONE    ctermbg=NONE gui=italic       cterm=italic
 hi Repeat                       guifg=#89ddff ctermfg=117  guibg=NONE    ctermbg=NONE gui=italic       cterm=italic
