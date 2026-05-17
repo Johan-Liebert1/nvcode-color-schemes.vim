@@ -176,6 +176,7 @@ hi @markup.link.label guifg=#f07178 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE
 hi @markup.link.url   guifg=#6695fa ctermfg=69  guibg=NONE ctermbg=NONE gui=NONE       cterm=nocombine
 hi @markup.raw        gui=NONE       cterm=NONE
 hi @_label            gui=NONE       cterm=NONE
+hi @_label.markdown_inline gui=NONE  cterm=NONE
 
 " Remove underline from markdown links
 "hi @markup.link.label gui=NONE cterm=NONE
